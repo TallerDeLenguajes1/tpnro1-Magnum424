@@ -9,7 +9,7 @@
     <Grid>
         <Button x:Name="btnCargar" Content="Cargar" HorizontalAlignment="Left" Margin="10,359,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
         <ListBox x:Name="lbxListin" HorizontalAlignment="Left" Height="320" Margin="342,10,0,0" VerticalAlignment="Top" Width="329"/>
-        <Button x:Name="btnExport" Content="Exportar" HorizontalAlignment="Left" Margin="480,359,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnExport" Content="Exportar" HorizontalAlignment="Left" Margin="480,359,0,0" VerticalAlignment="Top" Width="75" Click="BtnExport_Click"/>
         <TextBox x:Name="txbID" HorizontalAlignment="Left" Height="23" Margin="10,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txbNombre" HorizontalAlignment="Left" Height="23" Margin="10,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txbApellido" HorizontalAlignment="Left" Height="23" Margin="10,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
